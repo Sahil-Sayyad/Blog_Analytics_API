@@ -1,4 +1,16 @@
 # Blog_Analytics_API
+# Getting Started:
+     1. git clone : - https://github.com/Sahil-Sayyad/Blog_Analytics_API.git
+     2. npm install  // to install dependencies
+     3. npm start   // for start app  
+     4. API endpoints : - 
+                       1.Fetch and analyze blog data
+                       METHOD = GET
+                       http://localhost:3000/api/blog-stats
+                       
+                       2.Blog search
+                       METHOD = GET
+                       http://localhost:3000/api/blog-search?query=privacy
 # Problem Statement: Blog Analytics with Express and Lodash
 
 <p><b>You are developing a blog analytics and search tool using Express.js and Lodash. Your goal is to create a middle ware that analyzes the data retrieved from a third-party blog API (provided via the given curl request) and provides insightful statistics to clients. Additionally, you need to implement a blog search endpoint.</b></p>

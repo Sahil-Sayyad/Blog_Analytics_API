@@ -7,5 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sahil Sayyad",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21"
+  }
 }

@@ -4,13 +4,15 @@
   "description": "this assigment by the subspace ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
   },
   "author": "Sahil Sayyad",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.5.1",
     "express": "^4.18.2",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "nodemon": "^3.0.1"
   }
 }
